@@ -53,7 +53,7 @@ function DonateButton({ fundraiserId }) {
 
     return (
         <button onClick={handleDonate} className="bg-blue-500 text-white px-4 py-2 rounded mt-3">
-            {loading ? "Processing..." : "Donate $10"}
+            {loading ? "Processing..." : "Page $10"}
         </button>
     );
 }

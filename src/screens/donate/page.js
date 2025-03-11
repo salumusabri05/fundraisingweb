@@ -2,7 +2,7 @@
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 
-export default function Donate() {
+export default function Page() {
     // A simple donation page placeholder.
     return (
         <div className="min-h-screen bg-gray-50">
