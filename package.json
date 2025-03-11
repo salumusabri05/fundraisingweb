@@ -9,12 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^5.10.0",
+    "@supabase/supabase-js": "^2.49.1",
+    "next": "15.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.1"
+    "react-hook-form": "^7.54.2",
+    "react-icons": "^5.5.0",
+    "react-responsive-carousel": "^3.2.23",
+    "stripe": "^17.7.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4.0.12"
   }
 }
